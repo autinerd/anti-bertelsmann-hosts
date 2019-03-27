@@ -4,13 +4,17 @@ This file blocks all connections to sites which are from Bertelsmann or have a c
 
 ## How to install
 
-Windows:
+### Windows:
 
 - Paste the content of the file bertelsmann-hosts into `%WINDIR%\System32\etc\hosts` (admin rights are neccessary)
 
-Linux:
+### Linux:
 
 - Paste the content of the file bertelsmann-hosts into `/etc/hosts` (root rights are neccessary)
+
+### uBlock Origin and other adblock add-ons
+
+- Add `https://raw.githubusercontent.com/autinerd/anti-bertelsmann-hosts/master/bertelsmann-hosts` to the custom filter lists.
 
 ## Contributing
 
