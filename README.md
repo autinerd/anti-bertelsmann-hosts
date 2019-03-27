@@ -16,6 +16,10 @@ This file blocks all connections to sites which are from Bertelsmann or have a c
 
 - Add `https://raw.githubusercontent.com/autinerd/anti-bertelsmann-hosts/master/bertelsmann-hosts` to the custom filter lists.
 
+### Android (with root access)
+
+- Install [AdAway](https://github.com/AdAway/AdAway) or similar on your phone, then add the link from [above](#ublock-origin-and-other-adblock-add-ons) to the list of hosts-files.
+
 ## Contributing
 
-When you find a domain which belongs to Bertelsmann and it's not on the list or there is a domain which doesn't belong to Bertelsmann, feel free to open an issue or do a pull request.
+When you find a domain which belongs to Bertelsmann and is not on the list or there is a domain which doesn't belong to Bertelsmann, feel free to open an issue or do a pull request.
